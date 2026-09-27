@@ -1,0 +1,15 @@
+services:
+  flutter_build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    # Default command just verifies the Flutter environment is set up
+    # correctly. Override at the CLI for other tasks, e.g.:
+    #   docker-compose run --rm flutter_build flutter pub get
+    #   docker-compose run --rm flutter_build flutter test
+    #   docker-compose run --rm flutter_build flutter build apk --release
+    #   docker-compose run --rm flutter_build ./build.sh   (does all of the above)
+    command: ["flutter", "--version"]

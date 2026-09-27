@@ -1,0 +1,36 @@
+{
+  "popovers": [
+    {
+      "id": "info-tooltip",
+      "type": "tooltip",
+      "position": "top",
+      "content": "This field is required and must be unique.",
+      "backgroundColor": "#323232",
+      "animationDuration": 200
+    },
+    {
+      "id": "actions-dropdown",
+      "type": "dropdown",
+      "position": "bottom",
+      "content": "Share|Duplicate|Archive|Rename|Move to folder|Delete",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 220
+    },
+    {
+      "id": "card-context-menu",
+      "type": "context",
+      "position": "center",
+      "content": "Copy|Paste|Cut|Select All",
+      "backgroundColor": "#2B2B2B",
+      "animationDuration": 180
+    },
+    {
+      "id": "settings-modal",
+      "type": "modal",
+      "position": "center",
+      "content": "Update your notification preferences below.",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 260
+    }
+  ]
+}

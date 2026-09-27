@@ -1,0 +1,27 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+# NOTE: build/ is intentionally NOT ignored — the submission checklist
+# requires build/app/outputs/flutter-apk/app-release.apk to be present
+# in the repository after the Docker build step.
+*.iml
+*.class
+
+# Android
+android/.gradle/
+android/gradle/wrapper/gradle-wrapper.jar
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+android/app/debug
+android/app/profile
+android/app/release
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
